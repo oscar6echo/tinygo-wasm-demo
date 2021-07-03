@@ -1,9 +1,9 @@
 # TinyGo and WASM Demo
 
-See:
+Reference:
 
 - [TinyGo WASM documentation](https://tinygo.org/docs/guides/webassembly/)
-- ObservableHQ notebook [WASM compiled with tinyGo - demo]()
+- ObservableHQ notebook [WASM compiled with tinyGo - demo](https://observablehq.com/@oscar6echo/wasm-compiled-with-tinygo-demo)
 
 ## Build
 
