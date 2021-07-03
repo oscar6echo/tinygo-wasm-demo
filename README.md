@@ -1,4 +1,4 @@
-# TinyGo and WASM Demo
+# TinyGo to WASM Demo
 
 Reference:
 
