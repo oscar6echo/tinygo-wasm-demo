@@ -3,7 +3,7 @@
 Reference:
 
 - [TinyGo WASM documentation](https://tinygo.org/docs/guides/webassembly/)
-- ObservableHQ notebook [WASM compiled with tinyGo - demo](https://observablehq.com/@oscar6echo/wasm-from-tinygo-demo)
+- ObservableHQ notebook [WASM from TinyGo - demo](https://observablehq.com/@oscar6echo/wasm-from-tinygo-demo)
 
 ## Build
 
