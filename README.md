@@ -12,7 +12,7 @@ Reference:
 tinygo build -o ./html/tinygo_demo.wasm -target wasm ./main/main.go
 
 # boiler plate
-cp /usr/local/lib/tinygo/targets/wasm_exec.js ./html/wasm_exec.js
+cp $(tinygo env TINYGOROOT)/targets/wasm_exec.js ./html
 mv ./html/wasm_exec.js ./html/wasm_exec_mod.js
 
 # edit wasm_exec_mod.js
