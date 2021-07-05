@@ -10,6 +10,7 @@ Reference:
 ```bash
 # compile
 tinygo build -o ./html/tinygo_demo.wasm -target wasm ./main/main.go
+tinygo build -o ./html/tinygo_demo.wasm -target wasm -no-debug ./main/main.go
 
 # boiler plate
 cp $(tinygo env TINYGOROOT)/targets/wasm_exec.js ./html
@@ -33,7 +34,7 @@ func functionName(){
 
 NOTE: Only int and float types are supported.
 
-TinyGo .wasm generated files are small:
+TinyGo .wasm generated files are small (even smaller with `-no-debug` flag):
 
 ```bash
 ❯ ll html
