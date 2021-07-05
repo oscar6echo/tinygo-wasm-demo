@@ -44,7 +44,7 @@ total 60K
 -rw-r--r-- 1 olivier olivier  17K Jul  3 21:54 wasm_exec_mod.js
 ```
 
-## Serve
+## Browser
 
 Serve folder `/html`:
 
